@@ -50,7 +50,7 @@ def create_analysis_structure(analysis_name):
     os.makedirs(os.path.join('analyses', analysis_name, 'output'))
     with open(os.path.join('analyses', analysis_name, 'README.md'), 'w') as readme_h:
         readme_name = f'# {analysis_name}'
-        current_date = date.today().strftime("%Y-%m-%d")
+        current_date = date.today().strftime("%d-%m-%Y")
         readme_date = f'## {current_date}\\n'
         readme_h.write(f'{readme_name}\\n')
         readme_h.write(readme_date)
