@@ -63,10 +63,10 @@ create_analysis_structure(analysis_name)
     os.chmod(analysis_creator_path, 0o755)
 
 def print_usage():
-    print("Usage: python analysis_creator.py <analysis_name>")
+    print("Usage: python Project_creator.py <Project_name>")
 
 if len(sys.argv) != 2:
-    print("Error: Please provide the analysis name.")
+    print("Error: Please provide the Project name.")
     print_usage()
     sys.exit(1)
 
