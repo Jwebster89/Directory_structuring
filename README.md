@@ -10,7 +10,7 @@ This repository is a collection of bioinformatic scripts designed for use on the
 
 1. Clone this repository to your HPC.
    `
-   git clone [https://github.com/Jwebster89/Bluey_scripts.git]
+   git clone https://github.com/Jwebster89/Bluey_scripts.git
    `
 
 2. Navigate to the directory containing the script.
