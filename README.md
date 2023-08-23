@@ -37,24 +37,43 @@ The script `Project_creator.py` will produce the following directory structure:
 `
 <project_name>
 │
+
 ├── analyses/
+
 │
+
 ├── bin/
+
 │   ├── driver_script.sh    # Script for re-running an entire analysis.
+
 │   └── analysis_creator.py # Script for setting up analysis directories.
+
 │
+
 ├── docs/
+
 │
+
 ├── raw/
+
 │   ├── sequence_data/
+
 │   └── SRA/
+
 │
+
 └── data/
+
     ├── assembly/
+
     │   ├── input/
+
     │   ├── logs/
+
     │   └── output/
+
     ├── processed_raw/
+    
     └── references/
 `
 
