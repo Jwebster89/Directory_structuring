@@ -26,10 +26,10 @@ def create_project_structure(project_name):
 
         
     # Create the driver_script.py file in the bin directory
-    driver_script_path = os.path.join(project_name, 'bin', 'driver_script.py')
+    driver_script_path = os.path.join(project_name, 'bin', 'driver_script.sh')
     with open(driver_script_path, 'w') as driver_script:
         driver_code='''\
-#!/usr/bin/env python
+#!/bin/bash
 
 # This script is for being able to re-run an entire analysis. Keep up to date with project methods.
  
