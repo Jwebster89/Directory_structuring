@@ -34,7 +34,7 @@ This repository is a collection of bioinformatic scripts designed for use on the
 
 The script `Project_creator.py` will produce the following directory structure:
 
-`
+```
 <project_name>
 │
 
@@ -73,9 +73,9 @@ The script `Project_creator.py` will produce the following directory structure:
     │   └── output/
 
     ├── processed_raw/
-    
+
     └── references/
-`
+```
 
 ## Future Scripts:
 
