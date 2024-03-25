@@ -58,7 +58,7 @@ After setting up your project structure with the main script, you can create sta
 2. **Run the Script with Analysis Name**: Execute the `./bin/analysis_creator.py` script by providing the name of your analysis as an argument. This name will be used to create a new directory under `analyses` with subdirectories for `bin`, `input`, and `output`.
    `./analysis_creator.py <Analysis_Name>`
 
-   Replace `<Analysis_Name>` with the desired name for your analysis. For example, if your analysis is named "GenomeSequencing", run:
+   Replace `<Analysis_Name>` with the desired name for your analysis. For example, if your analysis is named "Spades_assembly_010224", run:
    `./analysis_creator.py Spades_assembly_010224`
 
 Recommendation: Include the date in your analysis name so that re-runs of an analysis are distinguishable.
